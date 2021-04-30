@@ -1,0 +1,34 @@
+.margin{
+    margin-top: 10%;
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+h2, h3, i, p{
+    color: white
+}
+
+.cita{
+    font-weight: bold;
+    font-style: italic;
+}
+
+i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.emoji{
+    font-size: 30px;
+    color: white;
+}
+
+.separador{
+    width: 200px;
+}
+
+.iconoEnlaces{
+    margin-top: 1rem;
+}

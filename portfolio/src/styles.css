@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --colorFondo: #03256c
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: var(--colorFondo);
+}
