@@ -1,5 +1,8 @@
-.margin{
+.tarjeta{
     margin-top: 10%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .foto{
@@ -7,7 +10,7 @@
 }
 
 h2, h3, i, p{
-    color: white
+    color: var(--colorLetras)
 }
 
 .cita{
@@ -15,20 +18,46 @@ h2, h3, i, p{
     font-style: italic;
 }
 
-i{
+.iconoEnlaces i{
     font-size: 30px;
     margin-right: 20px;
 }
 
-.emoji{
-    font-size: 30px;
-    color: white;
+.iconoEnlaces i:hover{
+    color: red;
+}
+
+.emoji, .menu li{
+    font-size: 20px;
+    color: var(--colorLetras);
+    margin: 0 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: red;
 }
 
 .separador{
-    width: 200px;
+    width: 220px;
+    color: white;
 }
 
 .iconoEnlaces{
     margin-top: 1rem;
+}
+
+.par{
+    margin-top: -2rem   !important
+}
+
+.impar{
+    margin-top: 2rem !important
 }

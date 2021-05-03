@@ -1,0 +1,23 @@
+.nav{
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.menu{
+    padding-right: 40px;
+}
+
+.menu li{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.menu li:hover{
+    background-color: var(--colorFondo);
+    color: white
+}
+
+.nombre{
+    padding-left: 40px;
+}

@@ -5,6 +5,7 @@ import { ResumeComponent } from './pages/resume/resume.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
+  {path: "home", component: HomeComponent},
   {path: "resume", component: ResumeComponent}
 ];
 
