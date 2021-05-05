@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public mostrar:boolean=false
   constructor() { }
+
+  mostrarMenu(){
+    this.mostrar = !this.mostrar
+  }
 
   ngOnInit(): void {
   }

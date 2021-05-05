@@ -1,0 +1,71 @@
+.biografia{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+h2, h3, i, p, em{
+    color: var(--colorLetras)
+}
+
+.cita{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.iconoEnlaces i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.iconoEnlaces i:hover{
+    color: red;
+}
+
+.texto{
+    width: 700px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.formacion{
+    margin-left: 20px;
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.formacion p{
+    font-size: 20px;
+    margin: 0
+}
+
+.experienciaFormacion{
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .texto{
+        width: 500px;
+    }
+  }
+
+  @media only screen and (max-width: 825px) {
+    .biografiaColumna{
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .texto{
+        width: 330px;
+    }
+    .formacion p{
+        font-size: 15px;
+    }
+  }

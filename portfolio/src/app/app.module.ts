@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { HeaderComponent } from './pages/header/header.component';
+import { BiografiaComponent } from './pages/biografia/biografia.component';
+import { SkillsComponent } from './pages/skills/skills.component';
+import { ProyectosComponent } from './pages/proyectos/proyectos.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ResumeComponent,
-    HeaderComponent
+    HeaderComponent,
+    BiografiaComponent,
+    SkillsComponent,
+    ProyectosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

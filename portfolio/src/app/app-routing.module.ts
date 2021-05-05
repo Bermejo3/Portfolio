@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BiografiaComponent } from './pages/biografia/biografia.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { ResumeComponent } from './pages/resume/resume.component';
+import { SkillsComponent } from './pages/skills/skills.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "home", component: HomeComponent},
-  {path: "resume", component: ResumeComponent}
+  {path: "biografia", component: BiografiaComponent},
+  {path: "resume", component: ResumeComponent},
+  {path: "skills", component: SkillsComponent},
+  {path: "proyectos", component: ProyectosComponent},
 ];
 
 @NgModule({

@@ -4,6 +4,11 @@
     justify-content: space-between;
 }
 
+.burguer{
+    display: none;
+    margin-left: 2rem;
+}
+
 .menu{
     padding-right: 40px;
 }
@@ -20,4 +25,29 @@
 
 .nombre{
     padding-left: 40px;
+    margin-right: 2rem;
 }
+
+.linkedin{
+    display: none;
+    margin-right: 2rem;
+    color: black;
+}
+
+.menuDesplegado{
+    justify-content: left;
+    text-align: left;
+}
+
+.menuDesplegado li{
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .burguer, .linkedin {
+      display: block;
+    }
+    .menu{
+        display: none;
+    }
+  }
