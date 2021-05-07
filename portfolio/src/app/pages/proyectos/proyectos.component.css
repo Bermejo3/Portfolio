@@ -1,0 +1,52 @@
+img{
+    width: 350px;
+}
+
+h1{
+    margin: 0;
+}
+
+
+.proyecto{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.proyecto{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    color: white;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.09);
+    padding: 30px;
+    border-radius: 6px;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.proyecto:hover{
+    box-shadow: 0 0px 26px 0 rgb(255 255 255 / 8%);
+}
+
+.proyecto p{
+    padding: 20px;
+    padding-top: 0;
+    text-align: justify;
+}
+
+.botones{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
