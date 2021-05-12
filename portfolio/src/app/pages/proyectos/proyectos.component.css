@@ -20,9 +20,9 @@ h1{
     margin-right: auto;
     width: 750px;
 
-    color: white;
-    background: rgba(0,0,0,0.2);
-    border: 1px solid rgba(255,255,255,0.09);
+    color: var(--colorLetras);
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.09);
     padding: 30px;
     border-radius: 6px;
     text-align: left;
@@ -31,7 +31,7 @@ h1{
 }
 
 .proyecto:hover{
-    box-shadow: 0 0px 26px 0 rgb(255 255 255 / 8%);
+    box-shadow: 0 0px 26px 0 rgb(0 0 0 / 8%);
 }
 
 .proyecto p{
@@ -48,7 +48,14 @@ h1{
 button{
     cursor: pointer;
     padding: 5px 20px;
+    border: 1px solid rgba(0,0,0,0.09);
     border-radius: 6px;
+    color: var(--colorLetras);
+    background: var(--colorFondo);
+}
+
+button:hover{
+    box-shadow: 0 0px 26px 0 rgb(0 0 0 / 8%);
 }
 
 @media only screen and (max-width: 850px) {

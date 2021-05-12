@@ -23,7 +23,7 @@ h2, h3, i, p, em{
 }
 
 .iconoEnlaces i:hover{
-    color: red;
+    color: var(--colorTerciario);
 }
 
 .texto{

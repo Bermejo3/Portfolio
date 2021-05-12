@@ -24,7 +24,7 @@ h2, h3, i, p{
 }
 
 .iconoEnlaces i:hover{
-    color: red;
+    color: var(--colorTerciario);
 }
 
 .emoji, .menu li{
@@ -42,7 +42,7 @@ li{
 }
 
 .menu li:hover{
-    color: red;
+    color: var(--colorTerciario);
 }
 
 .separador{

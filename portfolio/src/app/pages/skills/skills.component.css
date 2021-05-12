@@ -4,13 +4,13 @@ img{
 }
 
 h1, h2{
-    color: white;
+    color: var(--colorLetras);
 }
 
 hr {
     margin-top: 2rem;
     width: 75%;
-    border: 2px solid white; 
+    border: 2px solid var(--colorLetras); 
     border-radius: 300px/10px; 
     height: 0px; 
     text-align: center;

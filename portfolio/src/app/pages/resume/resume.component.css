@@ -10,7 +10,7 @@
 }
 
 .badge{
-    color: white;
+    color: var(--colorLetras);
     padding: 10px;
 }
 
@@ -23,9 +23,10 @@ i{
 
 .experiencia{
     width: 500px;
-    color: white;
-    background: rgba(0,0,0,0.2);
-    border: 1px solid rgba(255,255,255,0.09);
+    color: var(--colorLetras);
+    /* background: var(--colorSecundario); */
+    background: rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.09);
     margin: 10px;
     padding: 30px;
     border-radius: 6px;
@@ -35,7 +36,7 @@ i{
 }
 
 .experiencia:hover{
-    box-shadow: 0 0px 26px 0 rgb(255 255 255 / 8%);
+    box-shadow: 0 0px 26px 0 rgb(0 0 0 / 8%);
 }
 
 li{

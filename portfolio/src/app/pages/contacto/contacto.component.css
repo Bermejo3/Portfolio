@@ -20,3 +20,15 @@ h2, h3, i, p, em{
     width: 220px;
     color: white;
 }
+
+
+.contact-form label{
+    color: white;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 400px;
+}

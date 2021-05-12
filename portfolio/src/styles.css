@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
-    --colorFondo: #03256c;
-    --colorLetras: #ffffff
+    --colorFondo: #f6f6f6;
+    --colorLetras: #1e569f;
+    --colorSecundario: #d6e4f0;
+    --colorTerciario: #163172;
+}
+
+*{
+    /* font-family: 'Anonymous Pro', monospace; */
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'PT Mono', monospace;
 }
 
 body{
