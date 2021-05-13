@@ -7,9 +7,7 @@
 }
 
 *{
-    /* font-family: 'Anonymous Pro', monospace; */
-    /* font-family: 'IBM Plex Mono', monospace; */
-    font-family: 'PT Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{

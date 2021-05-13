@@ -4,6 +4,9 @@
     margin-right: auto;
 }
 
+.bio{
+    margin-left: 30px;
+}
 .foto{
     border-radius: 50%;
 }
@@ -28,16 +31,16 @@ h2, h3, i, p, em{
 
 .texto{
     width: 700px;
-    margin-left: 20px;
     font-size: 20px;
     text-align: justify;
+    padding: 30px;
 }
 
 .formacion{
-    margin-left: 20px;
     justify-content: left;
     text-align: left;
     align-items: flex-start;
+    padding: 0 30px 30px 30px;
 }
 
 .formacion p{

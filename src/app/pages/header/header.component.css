@@ -12,27 +12,37 @@
 
 .menu{
     padding-right: 40px;
+    height: 100%;
 }
 
 .menu li{
     font-size: 20px;
-    margin: 0 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 100%;
 }
 
-.menu li:hover{
-    background-color: var(--colorFondo);
-    color: var(--colorLetras)
+.menu li:hover, .menu .active{
+    /* background-color: var(--colorFondo);
+    color: var(--colorLetras) */
+    color: var(--colorTerciario)
 }
 
 .nombre{
-    padding-left: 40px;
+    padding: 0 40px;
     margin-right: 2rem;
+    cursor: pointer;
+}
+
+.nombre:hover{
+    background-color: var(--colorFondo);
+    color: var(--colorLetras)
 }
 
 .linkedin{
     display: none;
     margin-right: 2rem;
-    color: var(--colorLetras)
+    color: var(--colorLetras) !important
 }
 
 .menuDesplegado{
@@ -42,9 +52,15 @@
 
 .menuDesplegado li{
     padding-bottom: 1rem;
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 850px) {
+a:-webkit-any-link {
+    color: var(--colorLetras);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 880px) {
     .burguer, .linkedin {
       display: block;
     }
